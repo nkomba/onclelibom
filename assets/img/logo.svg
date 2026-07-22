@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Oncle Libom">
+  <defs>
+    <linearGradient id="ol-em" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c7a5c"/>
+      <stop offset="1" stop-color="#0b3d2e"/>
+    </linearGradient>
+    <linearGradient id="ol-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2c574"/>
+      <stop offset="1" stop-color="#c8a04a"/>
+    </linearGradient>
+  </defs>
+  <!-- rounded emblem -->
+  <rect x="4" y="4" width="92" height="92" rx="24" fill="url(#ol-em)"/>
+  <!-- rising sun / dawn rays -->
+  <g fill="none" stroke="url(#ol-gold)" stroke-width="2.4" stroke-linecap="round" opacity="0.85">
+    <path d="M50 30 V20"/>
+    <path d="M36 34 L30 27"/>
+    <path d="M64 34 L70 27"/>
+    <path d="M27 46 L19 43"/>
+    <path d="M73 46 L81 43"/>
+  </g>
+  <!-- open book -->
+  <path d="M22 54 C34 47 46 47 50 52 C54 47 66 47 78 54 L78 74 C66 68 54 68 50 73 C46 68 34 68 22 74 Z"
+        fill="#f6efd9"/>
+  <path d="M50 52 L50 73" stroke="#c8a04a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M28 58 C36 55 44 55 48 58" stroke="#1c7a5c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M52 58 C56 55 64 55 72 58" stroke="#1c7a5c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M28 64 C36 61 44 61 48 64" stroke="#1c7a5c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M52 64 C56 61 64 61 72 64" stroke="#1c7a5c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <!-- flame / cross above the book -->
+  <path d="M50 47 C47 43 47 40 50 36 C53 40 53 43 50 47 Z" fill="url(#ol-gold)"/>
+  <rect x="49" y="24" width="2.2" height="12" rx="1" fill="url(#ol-gold)"/>
+  <rect x="45.5" y="28" width="9" height="2.2" rx="1" fill="url(#ol-gold)"/>
+</svg>
